@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%- title %> | NodeBlog </title>
+    <link rel="icon" type="image/png" href="images/icons/favicon.png" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="/css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
+
+<body class="animsition">
+    <div class="wrapper">
+        <%- include('../components/common/header.ejs') %>
+            <main><%- body %></main>
+            <%- include('../components/common/footer.ejs') %>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1, 
+        "name": "Felsefe"
+    
+    },
+    {
+        "id": 2,
+        "name": "Psikoloji"
+    },
+    {
+        "id": 3,
+        "name": "İlişkiler"
+    },
+    {
+        "id": 4,
+        "name": "Podcast"
+    }
+]
